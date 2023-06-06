@@ -1,0 +1,12 @@
+.linkStyle {
+    font-size: 18px;
+    font-weight: 500;
+    border-bottom: 0px solid #FFC72C;
+   
+}
+
+.linkStyle::before {
+    color: #FFC72C;
+    border-bottom: 2px solid #FFC72C;
+    transition: all .2s ease-in-out 0s;
+}
