@@ -4,7 +4,8 @@ import CardNoticia from './Components/CardNoticia';
 import NavScrollExample from './Components/Nav';
 import FooterT from './Components/Footer';
 import About from './Pages/About';
-
+import List from './Pages/List';
+import Capitulos from './Pages/Capitulos';
 
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
       <main style={{position: 'relative', minHeight: '100vh'}}>
         <div  style={{paddingBottom:'15rem' }}>
           {/* <CardNoticia /> <CardNoticia /> */}
-          <About></About>
+          {/*<About></About>*/}
+          {/*<Capitulos/>*/}
+          {List('Noticias')}
         </div>
         <FooterT />
       </main>
