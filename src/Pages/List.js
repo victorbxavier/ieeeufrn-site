@@ -5,7 +5,7 @@ import Card from '../Components/CardNoticia';
 
 function List(nome) {
     
-    const lista = [{id: 0}, {id: 1}, {id: 2}, {id: 3}, {id: 4}, {id: 5}]
+    const lista = [{id: 0}, {id: 1}, {id: 2}]
 
     let cards = [];
     lista.forEach(element => {
