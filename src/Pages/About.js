@@ -1,8 +1,8 @@
-import '../css/about.css'
+import '../css/about.css';
 
 function About(){
     return (
-        <main>
+        <div>
             <h1>Sobre o IEEE</h1>
             <article>
                 <h2>Maior Organização Profissional e Técnica do Mundo</h2>
@@ -26,7 +26,7 @@ function About(){
                 que vão além da sala de aula e demais eventos. 
                 </p>
             </article>
-        </main>
+        </div>
     );
 }
 export default About;
