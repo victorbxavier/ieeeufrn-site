@@ -9,6 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from '../Imgs/logo-44.png'
 
 import '../css/nav.css'
+import { Link } from 'react-router-dom';
 
 function NavScrollExample() {
     const linkStyle = {
@@ -25,7 +26,9 @@ function NavScrollExample() {
         <Container >
 
             <Navbar.Brand>
-                <Image src={logo} alt="Logo" style={ { height: "50px" } }/>
+                <a href="http://localhost:3000/">
+                    <Image src={logo} alt="Logo" style={ { height: "50px" } }/>
+                </a>
             </Navbar.Brand>
 
             <Navbar.Toggle aria-controls="navbarScroll" />
@@ -51,12 +54,12 @@ function NavScrollExample() {
             }
                 
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                    <Nav.Link href="#" className='linkStyle'>Início</Nav.Link>
+                    <Nav.Link href="http://localhost:3000/" className='linkStyle'>Início</Nav.Link>
                     <Nav.Link href="#" className='linkStyle'>Notícias</Nav.Link>
                     <Nav.Link href="#" className='linkStyle'>Projetos</Nav.Link>
                     <Nav.Link href="#" className='linkStyle'>Eventos</Nav.Link>
-                    <Nav.Link href="#" className='linkStyle'>Capítulos</Nav.Link>
-                    <Nav.Link href="#" className='linkStyle'>Sobre</Nav.Link>
+                    <Nav.Link href="http://localhost:3000/Capitulos" className='linkStyle'>Capítulos</Nav.Link>
+                    <Nav.Link href="http://localhost:3000/Sobre" className='linkStyle'>Sobre</Nav.Link>
                 </Nav>
           
             </Navbar.Collapse>
