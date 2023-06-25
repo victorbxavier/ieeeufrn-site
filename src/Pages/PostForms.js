@@ -1,4 +1,5 @@
 import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
 
 function PostForms() {
   return (
@@ -28,6 +29,9 @@ function PostForms() {
                 <Form.Label>Imagem:</Form.Label>
                 <Form.Control id="Image" type="file" />
             </Form.Group>
+            <Button variant="secondary" type="submit">
+                Enviar
+            </Button>
         </Form>
     </div>
   );
