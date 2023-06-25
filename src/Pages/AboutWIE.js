@@ -3,7 +3,7 @@ import '../css/about.css';
 function AboutWIE(){
     return (
         <div>
-            <h1>Sobre a Woman in Engineering (CS)</h1>
+            <h1>Sobre a Woman in Engineering (WIE)</h1>
             <article>
                 <p>IEEE Women in Engineering (WIE) é uma rede global de membros e 
                     voluntárias do IEEE dedicadas a promover mulheres engenheiras e cientistas e a 

@@ -26,7 +26,7 @@ function Capitulos() {
 
   return (
     <Container className='caps'>
-        <h1 style={{textAlign: 'left', textDecoration: 'underline'}}>Capítulos</h1>
+        <h1 style={{textAlign: 'left'}}>Capítulos</h1>
         <Row>
             {
                 lista.map( (element) => (

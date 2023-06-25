@@ -17,7 +17,7 @@ function List(nome) {
 
   return (
     <Container>
-        <h1 style={{textAlign: 'left', textDecoration: 'underline'}}>{nome}</h1>
+        <h1 style={{textAlign: 'left'}}>{nome}</h1>
         <Row>
             {cards}
         </Row>
