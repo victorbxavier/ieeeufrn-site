@@ -55,9 +55,9 @@ function NavScrollExample() {
                 
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                     <Nav.Link href="http://localhost:3000/" className='linkStyle'>Início</Nav.Link>
-                    <Nav.Link href="#" className='linkStyle'>Notícias</Nav.Link>
-                    <Nav.Link href="#" className='linkStyle'>Projetos</Nav.Link>
-                    <Nav.Link href="#" className='linkStyle'>Eventos</Nav.Link>
+                    <Nav.Link href="http://localhost:3000/Noticias" className='linkStyle'>Notícias</Nav.Link>
+                    <Nav.Link href="http://localhost:3000/Projetos" className='linkStyle'>Projetos</Nav.Link>
+                    <Nav.Link href="http://localhost:3000/Eventos" className='linkStyle'>Eventos</Nav.Link>
                     <Nav.Link href="http://localhost:3000/Capitulos" className='linkStyle'>Capítulos</Nav.Link>
                     <Nav.Link href="http://localhost:3000/Sobre" className='linkStyle'>Sobre</Nav.Link>
                 </Nav>

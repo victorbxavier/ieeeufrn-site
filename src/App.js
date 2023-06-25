@@ -6,6 +6,9 @@ import FooterT from './Components/Footer';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Capitulos from './Pages/Capitulos';
+import News from './Pages/News';
+import Projects from './Pages/Projects';
+import Events from './Pages/Events';
 
 function App() {
   return (
@@ -18,6 +21,9 @@ function App() {
         <Router>
           <Routes>
             <Route path="/" element={<Home/>}/>
+            <Route path="/Noticias" element={<News/>}/>
+            <Route path="/Projetos" element={<Projects/>}/>
+            <Route path="/Eventos" element={<Events/>}/>
             <Route path="/Capitulos" element={<Capitulos/>}/>
             <Route path="/Sobre" element={<About/>}/>
           </Routes>
