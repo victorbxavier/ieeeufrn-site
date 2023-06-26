@@ -31,7 +31,7 @@ function Capitulos() {
             {
                 lista.map( (element) => (
                     <Col key={element.id}>
-                        <a style={{textDecoration : 'none', color : 'black'}} href='/'>
+                        <a style={{textDecoration : 'none', color : 'black'}} href={element.path}>
                             <Image 
                                 style={{marginBottom: 10}} 
                                 title={element.nome} 

@@ -27,7 +27,7 @@ function List(nome, link) {
     <Container>
         <h1 style={{textAlign: 'left'}}>{nome}</h1>
         <Row>
-            {lista.map((element) => (<Col>{Card(element.titulo, element.descricao, element.imagem)}</Col>))}
+            {lista.map((element) => (<Col className='pb-4'>{Card(element.titulo, element.descricao, element.imagem)}</Col>))}
         </Row>
     </Container>
   );
