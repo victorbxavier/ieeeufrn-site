@@ -1,25 +1,33 @@
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col'
+import Col  from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Card from '../Components/CardNoticia';
 
-function List(nome) {
-    
-    const lista = [{id: 0}, {id: 1}, {id: 2}]
+import { useEffect, useState } from 'react';
 
-    let cards = [];
-    lista.forEach(element => {
-        cards.push(
-        <Col className='p-3'>
-            <Card/>
-        </Col>)
-    });
+function List(nome, link) {
+    
+    const [lista, setLista] = useState([]);
+
+    useEffect(() => {
+        const carregarPost = async () => {
+            let data = await fetch(link)
+            .then((response) => response.json())
+            .then((responseJSON) => setLista(responseJSON))
+            .catch(error => console.error(error) );
+            console.log(data)
+        }
+
+        carregarPost();
+    }, []);
+
+    useEffect(()=>{console.log('lista:',lista)}, [lista]);
 
   return (
     <Container>
         <h1 style={{textAlign: 'left'}}>{nome}</h1>
         <Row>
-            {cards}
+            {lista.map((element) => (<Col>{Card(element.titulo, element.descricao, element.imagem)}</Col>))}
         </Row>
     </Container>
   );

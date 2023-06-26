@@ -38,7 +38,7 @@ function Capitulos() {
                                 roundedCircle 
                                 width={160} 
                                 height={160} 
-                                src={element.logo} 
+                                src={"http://localhost:8080/image/" + element.logo} 
                                 className='shadow-lg'
                             />
                             <h2 style={{textAlign: 'text-center'}}>
