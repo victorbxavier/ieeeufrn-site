@@ -5,10 +5,14 @@ function AboutWIE(){
         <div>
             <h1>Sobre a Woman in Engineering (WIE)</h1>
             <article>
-                <p>IEEE Women in Engineering (WIE) é uma rede global de membros e 
-                    voluntárias do IEEE dedicadas a promover mulheres engenheiras e cientistas e a 
-                    inspirar meninas em todo o mundo a seguir seus interesses acadêmicos em uma 
-                    carreira em engenharia e ciências.</p>
+                <p>O capítulo de afinidade Women in Engineering (WIE) tem como principal missão inspirar
+                    e empoderar mulheres em ambientes pré-universitário, universitário e profissional a 
+                    alcançarem com persistência e dedicação seus interesses acadêmicos e profissionais
+                    nas áreas de ciências, tecnologia, engenharia e matemática. Isso é feito através de
+                    projetos, palestras e encontros na área de tecnologias. Isso é feito através da realização 
+                    de palestras com engenheiras de destaque na comunidade acadêmica, de encontro entre as integrantes
+                    do grupo para trocar experiências e dos projetos desenvolvidos com as alunas dentro e fora da universidade. 
+                </p>
             </article>
         </div>
     );

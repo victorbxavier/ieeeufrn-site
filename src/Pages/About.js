@@ -22,7 +22,7 @@ function About(){
                 O ramo estudantil é um braço do IEEE que busca promover a missão de 
                 “Evoluir a tecnologia para o bem da humanidade” de forma mais próxima da comunidade. 
                 Tudo isso enquanto desenvolve liderança, networking e engajamento dos estudantes com a comunidade. 
-                Isso é feito por meio da promoção e apoio a minicursos, palestras, projetos técnicos, 
+                Isso é feito através da realização e apoio à minicursos, palestras, projetos técnicos, 
                 que vão além da sala de aula e demais eventos. 
                 </p>
             </article>

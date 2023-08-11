@@ -5,7 +5,7 @@ function AboutCS(){
         <div>
             <h1>Sobre a Computer Society (CS)</h1>
             <article>
-                <h2>Capacitando profissionais de ciência da computação e engenharia para impulsionar o avanço contínuo</h2>
+                <h2>Capacitando profissionais de ciência da computação e engenharia para impulsionar o avanço tecnológico contínuo</h2>
                 <p>Envolvendo engenheiros de computação, cientistas, acadêmicos e profissionais da indústria de todas as áreas da computação, a IEEE Computer Society (CS) 
                     define o padrão para a educação e engajamento que alimenta o avanço tecnológico global contínuo. 
                     Por meio de conferências, publicações e programas, e ao reunir líderes de ciência da computação e 
